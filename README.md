@@ -1,6 +1,6 @@
 <!-- ===== HEADER: Баннер с Denia ===== -->
 <p align="center">
-  <img src="https://c.tenor.com/OG81t3wwqxAAAAAC/tenor.gif" width="100%" alt="Denia" />
+  <img src="https://c.tenor.com/OG81t3wwqxAAAAAC/tenor.gif" width="100%" alt="Denia Wuthering Waves Banner" />
 </p>
 
 <!-- ===== ЗАГОЛОВОК И БЕЙДЖИ ===== -->
@@ -45,11 +45,9 @@
 ### 📊 Статистика
 
 <p align="center">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Nyahhentai&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nyahhentai&layout=compact&theme=radical&hide_border=true&langs_count=6" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nyahhentai&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&custom_title=Статистика%20Nyah&cache_seconds=1800" alt="Nyahhentai's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nyahhentai&layout=compact&theme=radical&hide_border=true&langs_count=6&cache_seconds=1800" alt="Top Languages" />
 </p>
-
----
 
 <!-- ===== ЗМЕЙКА КОНТРИБУЦИЙ ===== -->
 ### 🐍 Змейка контрибуций
