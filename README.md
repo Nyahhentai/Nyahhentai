@@ -1,6 +1,6 @@
 <!-- ===== HEADER: Баннер с Denia ===== -->
 <p align="center">
-  <img src="https://c.tenor.com/OG81t3wwqxAAAAAC/tenor.gif" width="100%" alt="Denia Wuthering Waves Banner" />
+  <img src="https://github.com/Nyahhentai/Nyahhentai/blob/main/denia.gif?raw=true" width="100%" alt="Denia Wuthering Waves Banner" />
 </p>
 
 <!-- ===== ЗАГОЛОВОК И БЕЙДЖИ ===== -->
