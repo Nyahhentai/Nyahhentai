@@ -1,6 +1,6 @@
 <!-- ===== HEADER: Баннер с Denia ===== -->
 <p align="center">
-  <img src="[https://c.tenor.com/OG81t3wwqxAAAAAC/tenor.gif)" width="100%" alt="Denia" />
+  <img src="https://c.tenor.com/OG81t3wwqxAAAAAC/tenor.gif" width="100%" alt="Denia" />
 </p>
 
 <!-- ===== ЗАГОЛОВОК И БЕЙДЖИ ===== -->
