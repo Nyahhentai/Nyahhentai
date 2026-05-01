@@ -1,6 +1,6 @@
 <!-- ===== HEADER: Баннер с Denia ===== -->
 <p align="center">
-  <img src="https://media1.tenor.com/m/OG81t3wwqxAAAAAC/denia-wuthering-wave.gif)" width="100%" alt="Denia" />
+  <img src="[https://c.tenor.com/OG81t3wwqxAAAAAC/tenor.gif)" width="100%" alt="Denia" />
 </p>
 
 <!-- ===== ЗАГОЛОВОК И БЕЙДЖИ ===== -->
@@ -33,7 +33,7 @@
     </td>
     <td width="50%">
       <p align="center">
-        <img src="https://bobopic.com/denia_wuthering_waves_art.jpg" width="250" alt="Denia Art" />
+        <img src="https://cdn.donmai.us/original/f5/8e/__denia_wuthering_waves_drawn_by_chigusa7h__f58e46904dcf8b52557bec8f94420093.jpg" width="250" alt="Denia Art" />
       </p>
     </td>
   </tr>
