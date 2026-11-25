@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Nyah - Cosplay Engineering Banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09070B"/>
+      <stop offset="48%" stop-color="#170910"/>
+      <stop offset="100%" stop-color="#0B080D"/>
+    </linearGradient>
+    <radialGradient id="crimsonGlow" cx="78%" cy="48%" r="42%">
+      <stop offset="0%" stop-color="#E11D48" stop-opacity="0.34"/>
+      <stop offset="45%" stop-color="#881337" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#09070B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="leftGlow" cx="18%" cy="55%" r="36%">
+      <stop offset="0%" stop-color="#9F1239" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#09070B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="crimsonLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E11D48" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#E11D48" stop-opacity="0.7"/>
+      <stop offset="65%" stop-color="#FB7185" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9F1239" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="silverText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5F7"/>
+      <stop offset="100%" stop-color="#D6C7CE"/>
+    </linearGradient>
+    <linearGradient id="petalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB7185"/>
+      <stop offset="55%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#7F1D1D"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Card -->
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="url(#bg)" stroke="#4C1122" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="url(#crimsonGlow)"/>
+  <rect x="2" y="2" width="1196" height="316" rx="16" fill="url(#leftGlow)"/>
+
+  <!-- Subtle Gothic Corner Filigree -->
+  <path d="M 24 44 L 24 24 L 54 24" fill="none" stroke="#9F1239" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 1176 44 L 1176 24 L 1146 24" fill="none" stroke="#9F1239" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 24 276 L 24 296 L 54 296" fill="none" stroke="#9F1239" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 1176 276 L 1176 296 L 1146 296" fill="none" stroke="#9F1239" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Conductor's Musical Stave Lines -->
+  <g stroke="#E11D48" stroke-opacity="0.16" stroke-width="1" fill="none">
+    <path d="M 40 210 Q 340 175, 640 210 T 1160 198"/>
+    <path d="M 40 222 Q 340 187, 640 222 T 1160 210"/>
+    <path d="M 40 234 Q 340 199, 640 234 T 1160 222"/>
+    <path d="M 40 246 Q 340 211, 640 246 T 1160 234"/>
+    <path d="M 40 258 Q 340 223, 640 258 T 1160 246"/>
+  </g>
+
+  <!-- Resonance Soundwave / Tacet Frequency Accent -->
+  <path d="M 60 234 L 170 234 L 185 212 L 198 256 L 214 196 L 230 264 L 246 220 L 260 242 L 274 234 L 580 234"
+        fill="none" stroke="url(#crimsonLine)" stroke-width="2" filter="url(#glow)" opacity="0.85"/>
+
+  <!-- Stylized Crimson Spider Lily (Lycoris radiata) Motif on Right -->
+  <g transform="translate(965, 162)" opacity="0.92">
+    <!-- Halo Rings -->
+    <circle cx="0" cy="0" r="96" fill="none" stroke="#881337" stroke-width="1" stroke-dasharray="4 6" opacity="0.65"/>
+    <circle cx="0" cy="0" r="68" fill="none" stroke="#E11D48" stroke-width="0.9" opacity="0.4"/>
+
+    <!-- Long Delicate Stamens -->
+    <g stroke="#FDA4AF" stroke-width="1.2" fill="none" opacity="0.85">
+      <path d="M 0 0 C -20 -45, -55 -75, -88 -88"/>
+      <path d="M 0 0 C 5 -55, 25 -88, 52 -106"/>
+      <path d="M 0 0 C 42 -30, 82 -42, 112 -32"/>
+      <path d="M 0 0 C 48 18, 76 52, 92 84"/>
+      <path d="M 0 0 C -10 52, -32 82, -62 96"/>
+      <path d="M 0 0 C -48 16, -86 12, -114 -8"/>
+    </g>
+    <!-- Stamen Tips -->
+    <g fill="#FFE4E6" filter="url(#glow)">
+      <circle cx="-88" cy="-88" r="2.5"/>
+      <circle cx="52" cy="-106" r="2.5"/>
+      <circle cx="112" cy="-32" r="2.5"/>
+      <circle cx="92" cy="84" r="2.5"/>
+      <circle cx="-62" cy="96" r="2.5"/>
+      <circle cx="-114" cy="-8" r="2.5"/>
+    </g>
+
+    <!-- Sweeping Crimson Petals -->
+    <g fill="url(#petalGrad)" opacity="0.88">
+      <path d="M 0 0 C -12 -28, -8 -66, 4 -86 C 14 -64, 14 -26, 0 0 Z" transform="rotate(12)"/>
+      <path d="M 0 0 C -12 -28, -8 -66, 4 -86 C 14 -64, 14 -26, 0 0 Z" transform="rotate(72)"/>
+      <path d="M 0 0 C -12 -28, -8 -66, 4 -86 C 14 -64, 14 -26, 0 0 Z" transform="rotate(132)"/>
+      <path d="M 0 0 C -12 -28, -8 -66, 4 -86 C 14 -64, 14 -26, 0 0 Z" transform="rotate(192)"/>
+      <path d="M 0 0 C -12 -28, -8 -66, 4 -86 C 14 -64, 14 -26, 0 0 Z" transform="rotate(252)"/>
+      <path d="M 0 0 C -12 -28, -8 -66, 4 -86 C 14 -64, 14 -26, 0 0 Z" transform="rotate(312)"/>
+    </g>
+    <circle cx="0" cy="0" r="8" fill="#18080F" stroke="#FB7185" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3" fill="#FFE4E6"/>
+  </g>
+
+  <!-- Conductor's Baton Diagonal Accent -->
+  <line x1="760" y1="268" x2="1120" y2="54" stroke="#E11D48" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- Left Typography Block -->
+  <g transform="translate(72, 76)">
+    <!-- Overline Tag -->
+    <rect x="0" y="0" width="292" height="24" rx="4" fill="#2A0B15" stroke="#881337" stroke-width="1"/>
+    <text x="14" y="16" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2" fill="#FDA4AF">
+      OVERTURE // COSPLAY ENGINEERING
+    </text>
+
+    <!-- Main Name -->
+    <text x="0" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" letter-spacing="10" fill="url(#silverText)">
+      NYAH
+    </text>
+
+    <!-- Crimson Accent Rule -->
+    <rect x="2" y="104" width="128" height="2.5" rx="1.25" fill="#E11D48" filter="url(#glow)"/>
+
+    <!-- Subtitle -->
+    <text x="0" y="136" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" letter-spacing="0.8" fill="#D6C7CE">
+      ESP32 Prop Electronics  ·  3D-Printed Blades  ·  Cosplay Craft Tutorials
+    </text>
+
+    <!-- Quote -->
+    <text x="0" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#A68B95">
+      // justmakemagic on c++
+    </text>
+  </g>
+</svg>
